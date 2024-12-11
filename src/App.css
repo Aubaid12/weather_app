@@ -1,0 +1,27 @@
+.center{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+.text_form{
+  height: 3vh;
+}
+
+.button_size{
+  height: 4vh;
+}
+
+.blur_block{
+  background-color: rgba(0,0,0,0.05);
+  backdrop-filter: blur(10px);
+  padding: 0.5vw;
+  color: white;
+  font-size: 20px;
+}
+
+.capital_first_letter{
+  text-transform: capitalize;
+}
