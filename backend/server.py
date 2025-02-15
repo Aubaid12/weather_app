@@ -16,5 +16,5 @@ def return_weather():
     data = response.json()
     return jsonify(data)
     
-app.run(debug = True)
+app.run(debug = False)
 
