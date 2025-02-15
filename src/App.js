@@ -17,7 +17,7 @@ function App() {
     if(city_name == "")
       setMsg("Please enter city name")
     else{
-    const response = await axios.get('http://localhost:5000/weather', {
+    const response = await axios.get('https://wa-1ytd.onrender.com/weather', {
       params: { city: city_name },
     });
     console.log(response.data)
