@@ -15,6 +15,7 @@ def return_weather():
     response = requests.get(base_url)
     data = response.json()
     return jsonify(data)
-    
-app.run(debug = False)
+
+if __name__ == "__main__":
+    app.run(debug = False)
 
